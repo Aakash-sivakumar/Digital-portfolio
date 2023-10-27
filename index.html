@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container" id="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                 <li><a href="#header">Home</a></li>
+                 <li><a href="#About">About Me</a></li>
+                 <li><a href="#education">Education</a></li>
+                 <li><a href="#Skills">Skills</a></li>
+                 <li><a href="#contact">Contact Me</a></li>
+            </ul>
+
+        </nav>
+        <div class="detail">
+            <h1> <span>Hi!</span> I'm Aak<span>ash</span></h1>
+            <h2>From India.
+            </h2>
+        <a href="images/aakash resume.png">Download CV</a>    
+        </div>
+        <div class="images">
+            <img src="images/sample.png" class="ash">
+        </div>
+    </div>
+    <!--------------about------------>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/sampleprofile.png">
+                </div>
+                <div class="col-2">
+                    <h2 class="title">About Me</h2>
+                    <p>I am Aakash an aspiring Programmer.I'm 20 years old who's love to learn new things.
+                        Computer Science graduate seeking a perfect role to apply acquired knowledge and 
+                        practical experience .I have skills which helps me to work and learn as part of a dedicated team. 
+                    </p>
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------education---------->
+    <div class="education" id="education">
+    <h1 class="heading"> My <span>Education</span> </h1>    
+     <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2024</span>
+            <h3>Bsc.Computer Science</h3>
+            <p>I've completed my Bacheolors degree in Computer Science
+                at M.S.U College.I've built my skills through coding competitions 
+                and I've Certificates..
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>Higher secondary</h3>
+            <p>I've completed my Higher Secondary in Computer Science major 
+                at St.Antony's Matriculation School.
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>Secondary School</h3>
+            <p>I've completed my Secondary School at St.Antony's Matriculation School </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2024</span>
+            <h3>Other courses</h3>
+            <p>I've completed Several online courses.
+            </p>
+        </div>
+     </div>   
+    </div>
+    <!---------------skill------------>
+    <div id="Skills">
+        <div class="container">
+            <h1>My Skills</h1>
+            <li><h3>C++</h3>
+                <span class="bar"><span class="cpp"></span></span>
+            </li>
+            <li><h3>Python</h3>
+                <span class="bar"><span class="python"></span></span>
+            </li>
+            <li><h3>Java</h3>
+                <span class="bar"><span class="java"></span></span>
+            </li>
+            <li><h3>Communication</h3>
+                <span class="bar"><span class="comm"></span></span>
+            </li>
+        </div>
+    </div>
+    <!--------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> aakashash9@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 8870808499</p>
+                    <p><i class="fa-solid fa-location-dot"></i> TamilNadu,India-627416.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aakash.siva.94"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/aakashash_2?igshid=OTk0YzhjMDVlZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aakash-s-749808220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/aakash resume.png" download class="btn">Download CV <i class="fas fa-arrow-down"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message.."></textarea>
+                        <button type="submit" class="btn btn2"> Send <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>&copy;Made With <i class="fa-solid fa-heart"></i> By Aakash.</p>
+        </div>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw1BYiuVNJzvKVjJeG9S53DyjcozIW54JXH8thWR9LFQgqIPcIiUvWAET3zesO8KgYh/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="I Received Your Message Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
